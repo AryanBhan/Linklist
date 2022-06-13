@@ -52,5 +52,5 @@ int main()
     push(5);
     deleteatend();
     print();
-return 0;
+    return 0;
 }
