@@ -31,6 +31,13 @@ void print()
     }
     
 }
+void insertatbeg(int d)
+{
+    node* newnode=new node();
+    newnode->data=d;
+    newnode->next=head;
+    head=newnode;
+}
 int main()
 {
     push(1);
@@ -38,6 +45,7 @@ int main()
     push(3);
     push(4);
     push(5);
+    insertatbeg(0);
     print();
 return 0;
 }
